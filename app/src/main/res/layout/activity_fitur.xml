@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg"
+    android:padding="16dp"
+    tools:context=".FiturActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="FITUR"
+            android:textColor="#233223"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tabel Fitur:"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginTop="8dp">
+
+                    <!-- Header Tabel -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="3dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="No"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:text="Nama Variable"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Tipe Data"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="Keterangan"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="1"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:text="pH"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Float64"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="kadar protein, lemak, laktosa, dan mineral dalam susu. Fitur-fitur ini penting karena mereka mempengaruhi nilai gizi dan kualitas nutrisi dari produk susu."
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="2"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:text="Temprature"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Int64"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="Variabel seperti cuaca (misalnya suhu, kelembaban), kondisi lingkungan (misalnya kebersihan kandang), dan faktor lingkungan lainnya yang dapat mempengaruhi kesehatan dan kualitas susu ternak."
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="3"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:text="Taste"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Int64"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="Kualitas rasa dan kesesuaian dengan standar pangan."
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="4"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:text="Odor"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Int64"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="Fjasilitas produksi, yang dapat mempengaruhi faktor-faktor seperti iklim atau kebijakan lokal yang memengaruhi produksi susu."
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <!-- Baris 8 -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="5"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:text="Fat"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Int64"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="Data identifikasi individu ternak, seperti jenis sapi atau kode unik identifikasi, yang penting untuk melacak asal-usul susu dan memahami variabilitas antar ternak."
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <!-- Baris 10 -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="6"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:text="Turbidity"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Int64"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="Informasi tentang metode pengolahan dan manajemen produksi susu, termasuk pakan yang diberikan, pengelolaan gizi, penggunaan obat-obatan atau suplemen, dan proses pengolahan lainnya."
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <!-- Baris 11 -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="7"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:text="Colour"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Int64"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="warna, viskositas, dan tekstur susu. Meskipun ini mungkin lebih subjektif, karakteristik fisik juga dapat memberikan wawasan tentang kualitas susu."
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                    <!-- Baris 13 -->
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="8"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="4"
+                            android:text="Grade"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Int64"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="3"
+                            android:text="Low/Medium/High"
+                            android:textColor="@color/black"
+                            android:textSize="14sp"
+                            android:padding="8dp"
+                            android:gravity="center"/>
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
